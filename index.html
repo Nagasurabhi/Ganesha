@@ -3,8 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <title>Welcome</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #222;
+      color: white;
+    }
+    .category {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      text-align: left;
+    }
+    .total-row {
+      background-color: orange;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
+
+  <h2 style="text-align:center;">EXPENSES</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>RESPONSIBLE</th>
+        <th>PARTICULARS</th>
+        <th>AMOUNT</th>
+        <th>PAID</th>
+        <th>BALANCE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Divesh Entries -->
+      <tr>
+        <td rowspan="9">Divesh</td>
+        <td>Vinayagar silai</td>
+        <td>25900</td>
+        <td>25900</td>
+        <td>0</td>
+      </tr>
+      <tr><td>Pandhal</td><td>25001</td><td>25001</td><td>0</td></tr>
+      <tr><td>Notice & Billbook</td><td>480</td><td>480</td><td>0</td></tr>
+      <tr><td>Drums</td><td>11200</td><td>11200</td><td>0</td></tr>
+      <tr><td>Maalai</td><td>3000</td><td>3000</td><td>0</td></tr>
+      <tr><td>Iyer & pooja silavu</td><td>350</td><td>350</td><td>0</td></tr>
+      <tr><td>Vehicle</td><td>3000</td><td>3000</td><td>0</td></tr>
+      <tr><td>Pazhangal</td><td>300</td><td>300</td><td>0</td></tr>
+      <tr><td>Paanai & Vilayatu potigal</td><td>430</td><td>430</td><td>0</td></tr>
+
+      <!-- Durga Entries -->
+      <tr>
+        <td rowspan="13">Durga</td>
+        <td>Vilakku & thattu</td>
+        <td>3510</td>
+        <td>3510</td>
+        <td>0</td>
+      </tr>
+      <tr><td>Thundu</td><td>840</td><td>840</td><td>0</td></tr>
+      <tr><td>Vaazhai maram</td><td>640</td><td>640</td><td>0</td></tr>
+      <tr><td>Sweet</td><td>1000</td><td>1000</td><td>0</td></tr>
+      <tr><td>Pirasadham</td><td>4000</td><td>4000</td><td>0</td></tr>
+      <tr><td>Vehicle</td><td>4000</td><td>4000</td><td>0</td></tr>
+      <tr><td>Thonnai, paper plate</td><td>600</td><td>600</td><td>0</td></tr>
+      <tr><td>Pandha kaal</td><td>401</td><td>401</td><td>0</td></tr>
+      <tr><td>Dance show</td><td>1265</td><td>1265</td><td>0</td></tr>
+      <tr><td>Kumareson</td><td>3000</td><td>3000</td><td>0</td></tr>
+      <tr><td>Miscellaneous</td><td>700</td><td>700</td><td>0</td></tr>
+    </tbody>
+    <tfoot>
+      <tr class="total-row">
+        <td colspan="2">TOTAL</td>
+        <td>89617</td>
+        <td>89617</td>
+        <td>0</td>
+      </tr>
+    </tfoot>
+  </table>
+</head>
+<body>
+
   <h1>Jai Sri Ganesha</h1>
   <p>Sri Selva Ganapati.</p>
 </body>
